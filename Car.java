@@ -6,7 +6,7 @@ import java.util.HashSet;
  * utiliser assertEquals/ assertthrows/ assertnull
  */
 
-public class Car {
+public class Car implements Vehicule {
 	
 	private final String brand; 
 	private final long value;
